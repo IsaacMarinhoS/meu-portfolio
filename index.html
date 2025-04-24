@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Isaac Marinho — Portfólio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Serif+Bengali:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+   
+    <header class="navbar">
+        <nav>
+          <ul>
+            <li><a href="#sobre" onclick="scrollToSection(event, 'sobre')">Sobre Mim</a></li>
+            <li><a href="#projetos" onclick="scrollToSection(event, 'projetos')">Projetos</a></li>
+            <li><a href="curriculo.html">Currículo</a></li>
+          </ul>
+        </nav>
+      </header>
+      
+      
+
+    <section class="hero">
+        
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Isaac Marinho Da Silva Rosemback</h1>
+                <p>Sou desenvolvedor Full Stack e estudante de Análise e Desenvolvimento de Sistemas. Transformo
+                    ideias em experiências digitais funcionais e intuitivas. Minha missão é criar soluções que gerem
+                    impacto real para pessoas e negócios.</p>
+                <div class="social-boxes">
+                    <a href="https://github.com/IsaacMarinhoS" target="_blank" class="social-box">
+                        <i class="fab fa-github"></i>
+                        GitHub
+                    </a>
+                    <a href="https://www.linkedin.com/in/isaac-marinho" target="_blank" class="social-box">
+                        <i class="fab fa-linkedin"></i>
+                        LinkedIn
+                    </a>
+                    <a href="mailto:isaacrosemback0@gmail.com" target="_blank" class="social-box">
+                        <i class="fas fa-envelope"></i>
+                        isaacfullstackdev@gmail.com
+                    </a>
+                </div>
+
+
+            </div>
+            <div class="hero-img">
+                <img src="WhatsApp_Image_2025-04-24_at_12.15.36-removebg-preview (1).png" alt="Isaac" />
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section id="sobre" class="sobre stars-bg">
+        <h2 class="section-title">Sobre Mim </h2>
+      
+        <p>Olá! Me chamo Isaac Marinho, Sou desenvolvedor full stack, formado pelo SENAI, e atualmente estou cursando Análise e Desenvolvimento de Sistemas na Unopar/Anhanguera.</p>
+        <p>Tenho experiência com desenvolvimento de sites modernos e responsivos, utilizando tecnologias como HTML, CSS, JavaScript, React, Node.js, MySQL e PostgreSQL. Também já trabalhei com Java e React Native em projetos diversos.</p>
+        <p>Além disso, desenvolvo sistemas personalizados com backend estruturado, integração com banco de dados, autenticação e funcionalidades específicas para cada tipo de cliente ou negócio.</p>
+        <p>Meu foco é entregar soluções completas, desde a ideia inicial até o produto final funcionando. Gosto de pensar no design, na usabilidade e na performance de cada projeto. Busco constantemente evoluir como desenvolvedor, aprender novas ferramentas e colaborar com outros profissionais da área.</p>
+      </section>
+      
+
+    <section id="projetos" class="projetos">
+        <h2 class="section-title">Projetos</h2>
+
+        <div class="card">
+            <h3>Viper Run (Jogo da Cobrinha)</h3>
+            <p>Jogo clássico recriado com JavaScript puro, HTML e CSS. Responsivo e jogável no navegador.</p>
+            <a href="https://viper-run.online" target="_blank" class="social-box">
+              <i class="fas fa-gamepad"></i>
+              Jogar
+            </a>
+          </div>
+      
+        <div class="card">
+          <h3>Carinho Suculento 1.0</h3>
+          <p>Primeira versão do projeto, desenvolvida com HTML e CSS. Interface simples e leve para exibição de suculentas.</p>
+          <a href="https://carinho-suculento.netlify.app/" target="_blank" class="social-box">
+            <i class="fas fa-leaf"></i>
+            Ver Projeto
+          </a>
+        </div>
+      
+        <div class="card">
+          <h3>Carinho Suculento "VERSÃO TESTE"</h3>
+          <p>Versão atual com upload de imagens. Feito em React, Node.js e MongoDB, com foco em funcionalidades e performance.</p>
+          <a href="https://carinho-suculento.vercel.app" target="_blank" class="social-box">
+            <i class="fas fa-leaf"></i>
+            Ver Projeto
+          </a>
+        </div>
+      
+        <div class="card">
+          <h3>Portfólio Rebeca Rosemback</h3>
+          <p>Site feito para divulgação de portfólio artístico com foco visual. Desenvolvido com HTML, CSS e responsivo.</p>
+          <a href="https://rebeca-rosemback.netlify.app/" target="_blank" class="social-box">
+            <i class="fas fa-paint-brush"></i>
+            Ver Projeto
+          </a>
+        </div>
+      </section>
+      
+
+
+
+
+</body>
+<script>
+    function scrollToSection(event, sectionId) {
+        event.preventDefault();
+        const target = document.getElementById(sectionId);
+        const top = target.offsetTop;
+
+        window.scrollTo({
+            top: top,
+            behavior: 'smooth'
+        });
+    }
+</script>
+
+
+</html>
