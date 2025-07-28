@@ -2,136 +2,236 @@
 <html lang="pt-br">
 
 <head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Isaac Marinho — Portfólio</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Noto+Serif+Bengali:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Isaac Marinho | Desenvolvedor Web</title>
+
 </head>
 
 <body>
+  <header class="hero">
+    <div class="hero-content">
+       <h1>Isaac Marinho</h1>
+    
+    <p>Desenvolvedor Full Stack que entrega soluções com performance, design e propósito.</p>
+    </div>
+  </header>
 
-   
-    <header class="navbar">
-        <nav>
-          <ul>
-            <li><a href="#sobre" onclick="scrollToSection(event, 'sobre')">Sobre Mim</a></li>
-            <li><a href="#projetos" onclick="scrollToSection(event, 'projetos')">Projetos</a></li>
-            <li><a href="curriculo.html">Currículo</a></li>
-          </ul>
-        </nav>
-      </header>
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#portfolio">Portfólio</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <section id="sobre" class="sobre">
+    <div class="container-sobre">
+      <div class="texto-sobre">
+        <h2 class="section-title">Sobre mim</h2>
+        <p>
+          Prazer, sou <strong>Isaac Marinho</strong>, desenvolvedor Full Stack especializado em criar soluções digitais
+          completas. Desenvolvo <strong>sites, sistemas, aplicativos e softwares personalizados</strong> para clientes,
+          empresas e projetos de todos os tamanhos.
+        </p>
+        <p>
+          Atuo tanto no <strong>frontend</strong> quanto no <strong>backend</strong>, criando desde <strong>sites
+            institucionais</strong>, <strong>portfólios</strong> até <strong>painéis administrativos, sistemas de
+            gestão, ferramentas de controle de produção, dashboards inteligentes e automações personalizadas</strong>.
+        </p>
+        <p>
+          Trabalho com tecnologias como <strong>HTML, CSS, JavaScript, Java, Node.js, Tauri e Electron</strong>,
+          entregando interfaces modernas, funcionais e de alto desempenho.
+        </p>
+        <p>
+          Sou formado em <strong>Programação Full Stack</strong> e atualmente curso <strong>Análise e Desenvolvimento de
+            Sistemas</strong>, sempre buscando novas soluções, boas práticas e resultados profissionais para cada
+          projeto que desenvolvo.
+        </p>
+      </div>
+
+      <div class="foto-sobre">
+        <img src="./WhatsApp Image 2025-07-18 at 18.19.44.jpeg" alt="Isaac Marinho" />
+      </div>
+    </div>
+  </section>
+
+
+  <section id="portfolio">
+    <h2 class="section-title">Portfólio</h2>
+    <div class="portfolio">
+      <div class="projeto">
+        <img src="./Captura de tela 2025-05-11 223914.png" alt="Projeto 1">
       
-      
+  
+      </div>
+      <div class="projeto">
+        <img src="./Captura de tela 2025-07-26 124713.png" alt="Projeto 2">
 
-    <section class="hero">
-        
-        <div class="hero-content">
-            <div class="hero-text">
-                <h1>Isaac Marinho Da Silva Rosemback</h1>
-                <p>Sou desenvolvedor Full Stack e estudante de Análise e Desenvolvimento de Sistemas. Transformo
-                    ideias em experiências digitais funcionais e intuitivas. Minha missão é criar soluções que gerem
-                    impacto real para pessoas e negócios.</p>
-                <div class="social-boxes">
-                    <a href="https://github.com/IsaacMarinhoS" target="_blank" class="social-box">
-                        <i class="fab fa-github"></i>
-                        GitHub
-                    </a>
-                    <a href="https://www.linkedin.com/in/isaac-marinho" target="_blank" class="social-box">
-                        <i class="fab fa-linkedin"></i>
-                        LinkedIn
-                    </a>
-                    <a href="mailto:isaacrosemback0@gmail.com" target="_blank" class="social-box">
-                        <i class="fas fa-envelope"></i>
-                        isaacfullstackdev@gmail.com
-                    </a>
-                </div>
+      </div>
+      <div class="projeto">
+        <img src="Captura de tela 2025-07-26 124536.png" alt="Projeto 3">
+    
+      </div>
+
+    </div>
+  </section>
+
+  <section class="diferenciais">
+    <h2 class="section-title">Por que escolher meu trabalho?</h2>
+    <div class="cards-diferenciais">
+      <div class="card-diferencial">
+        <span class="icone">🎯</span>
+        <h3>Exclusividade</h3>
+        <p>Sites únicos, sem templates prontos. Cada detalhe é pensado estrategicamente para o seu negócio.</p>
+      </div>
+      <div class="card-diferencial">
+        <span class="icone">⚡</span>
+        <h3>Performance</h3>
+        <p>Sites rápidos, otimizados e que impressionam desde o primeiro segundo com carregamento inteligente.</p>
+      </div>
+      <div class="card-diferencial">
+        <span class="icone">📱</span>
+        <h3>Responsividade</h3>
+        <p>Experiência impecável em todos os dispositivos, do celular ao computador, sem perder qualidade.</p>
+      </div>
+    </div>
+  </section>
 
 
-            </div>
-            <div class="hero-img">
-                <img src="WhatsApp_Image_2025-04-24_at_12.15.36-removebg-preview (1).png" alt="Isaac" />
-            </div>
+  <section id="depoimentos" class="depoimentos">
+    <h2 class="section-title">O que dizem meus clientes</h2>
+    <div class="carrossel">
+      <div class="slide ativo">
+        <div class="card-depoimento">
+          <blockquote>"O Isaac transformou a presença online da minha empresa. Design limpo, rápido e exatamente como
+            imaginei!"</blockquote>
+          <p class="autor">— Cliente 1</p>
         </div>
-    </section>
-
-
-
-
-    <section id="sobre" class="sobre stars-bg">
-        <h2 class="section-title">Sobre Mim </h2>
-      
-        <p>Olá! Me chamo Isaac Marinho, Sou desenvolvedor full stack, formado pelo SENAI, e atualmente estou cursando Análise e Desenvolvimento de Sistemas na Unopar/Anhanguera.</p>
-        <p>Tenho experiência com desenvolvimento de sites modernos e responsivos, utilizando tecnologias como HTML, CSS, JavaScript, React, Node.js, MySQL e PostgreSQL. Também já trabalhei com Java e React Native em projetos diversos.</p>
-        <p>Além disso, desenvolvo sistemas personalizados com backend estruturado, integração com banco de dados, autenticação e funcionalidades específicas para cada tipo de cliente ou negócio.</p>
-        <p>Meu foco é entregar soluções completas, desde a ideia inicial até o produto final funcionando. Gosto de pensar no design, na usabilidade e na performance de cada projeto. Busco constantemente evoluir como desenvolvedor, aprender novas ferramentas e colaborar com outros profissionais da área.</p>
-      </section>
-      
-
-    <section id="projetos" class="projetos">
-        <h2 class="section-title">Projetos</h2>
-
-        <div class="card">
-            <h3>Viper Run (Jogo da Cobrinha)</h3>
-            <p>Jogo clássico recriado com JavaScript puro, HTML e CSS. Responsivo e jogável no navegador.</p>
-            <a href="https://viper-run.online" target="_blank" class="social-box">
-              <i class="fas fa-gamepad"></i>
-              Jogar
-            </a>
-          </div>
-      
-        <div class="card">
-          <h3>Carinho Suculento 1.0</h3>
-          <p>Primeira versão do projeto, desenvolvida com HTML e CSS. Interface simples e leve para exibição de suculentas.</p>
-          <a href="https://carinho-suculento.netlify.app/" target="_blank" class="social-box">
-            <i class="fas fa-leaf"></i>
-            Ver Projeto
-          </a>
+      </div>
+      <div class="slide">
+        <div class="card-depoimento">
+          <blockquote>"Profissionalismo e atenção aos detalhes. O projeto foi entregue antes do prazo e com qualidade
+            impecável."</blockquote>
+          <p class="autor">— Cliente 2</p>
         </div>
-      
-        <div class="card">
-          <h3>Carinho Suculento "VERSÃO TESTE"</h3>
-          <p>Versão atual com upload de imagens. Feito em React, Node.js e MongoDB, com foco em funcionalidades e performance.</p>
-          <a href="https://carinho-suculento.vercel.app" target="_blank" class="social-box">
-            <i class="fas fa-leaf"></i>
-            Ver Projeto
-          </a>
+      </div>
+      <div class="slide">
+        <div class="card-depoimento">
+          <blockquote>"Conseguiu entender exatamente o que eu queria e executou com excelência. Recomendo de olhos
+            fechados!"</blockquote>
+          <p class="autor">— Cliente 3</p>
         </div>
-      
-        <div class="card">
-          <h3>Portfólio Rebeca Rosemback</h3>
-          <p>Site feito para divulgação de portfólio artístico com foco visual. Desenvolvido com HTML, CSS e responsivo.</p>
-          <a href="https://rebeca-rosemback.netlify.app/" target="_blank" class="social-box">
-            <i class="fas fa-paint-brush"></i>
-            Ver Projeto
-          </a>
+      </div>
+      <div class="slide">
+        <div class="card-depoimento">
+          <blockquote>"Foi além das expectativas. O site ficou rápido, bonito e funcional. Trabalho de primeira!"
+          </blockquote>
+          <p class="autor">— Cliente 4</p>
         </div>
-      </section>
-      
+      </div>
+    </div>
+  </section>
+
+<section id="contato" class="contato">
+  <h2 class="section-title">Entre em Contato</h2>
+  <form class="form-grid" id="contatoForm">
+    <div class="form-group">
+      <input type="text" id="nome" placeholder="Seu nome" required>
+    </div>
+    <div class="form-group">
+      <input type="email" id="email" placeholder="Seu e-mail" required>
+    </div>
+    <div class="form-group full">
+      <textarea id="mensagem" rows="5" placeholder="Sua mensagem" required></textarea>
+    </div>
+    <div class="form-group full">
+      <button type="submit">Enviar Mensagem</button>
+    </div>
+  </form>
 
 
+    <div class="icones-redes">
+      <a href="https://www.instagram.com/isaacmarinhodev/" target="_blank" aria-label="Instagram">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/isaac-marinho/" target="_blank" aria-label="LinkedIn">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+      <a href="https://github.com/IsaacMarinhoS" target="_blank" aria-label="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="https://wa.me/5524988467453" target="_blank" aria-label="WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+      </a>
+    </div>
+  </section>
 
+  <footer>
+    <p>
+      <a href="https://www.instagram.com/isaacmarinhodev/" style="color: var(--branco); margin: 0 0.5rem;">Instagram</a>
+      |
+      <a href="https://www.linkedin.com/in/isaac-marinho/" style="color: var(--branco); margin: 0 0.5rem;">LinkedIn</a>
+    </p>
+
+    <p>&copy; 2025 Isaac Marinho. Todos os direitos reservados.</p>
+  </footer>
+
+
+  <script>
+    const slides = document.querySelectorAll(".slide");
+    let index = 0;
+
+    function mostrarSlide() {
+      slides.forEach((slide, i) => {
+        slide.classList.remove("ativo");
+      });
+
+      slides[index].classList.add("ativo");
+      index = (index + 1) % slides.length;
+    }
+
+    setInterval(mostrarSlide, 5000); // troca a cada 5 segundos
+
+
+    const sections = document.querySelectorAll('section');
+
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('show');
+        }
+      });
+    }, {
+      threshold: 0.1
+    });
+
+    sections.forEach(section => {
+      section.classList.add('hidden');
+      observer.observe(section);
+    });
+
+      const form = document.getElementById('contatoForm');
+
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+
+    const nome = document.getElementById('nome').value;
+    const email = document.getElementById('email').value;
+    const mensagem = document.getElementById('mensagem').value;
+
+    const corpoEmail = `Nome: ${nome}%0AEmail: ${email}%0AMensagem: ${mensagem}`;
+    const assunto = 'Contato pelo site';
+
+    const link = `mailto:isaac@email.com?subject=${assunto}&body=${corpoEmail}`;
+
+    window.location.href = link;
+  });
+  </script>
 
 </body>
-<script>
-    function scrollToSection(event, sectionId) {
-        event.preventDefault();
-        const target = document.getElementById(sectionId);
-        const top = target.offsetTop;
-
-        window.scrollTo({
-            top: top,
-            behavior: 'smooth'
-        });
-    }
-</script>
-
 
 </html>
